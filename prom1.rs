@@ -1,20 +1,26 @@
-fn main() {
-    let num1 = 10;
-    let num2 = 20;
+fn main(){
+let num1=3;
+let num2=6;
 
-    println!("Variables: num1 = {}, num2 = {}", num1, num2);
+    println!("valiables utilizadas: {} y {}", num1, num2);
+    println!("suma de variables:");
+        let suma= num1 + num2;
+            println!("Resultado:{}", suma);
+    println!("resta de variables:");
+    let resta= num2 - num1;
+            println!("Resultado:{}", resta);
+    println!("multiplicacion de variables:");
+    let multiplicacion= num1 * num2;
+            println!("Resultado:{}", multiplicacion);
+    println!("division de variables:");
+    let division= num2 / num1;
+            println!("Resultado:{}", division);
+    println!("modulo de variables:");
+    let modulo= num2 % num1;
+            println!("Resultado:{}", modulo);
+    
 
-    let suma = num1 + num2;
-    let resta = num1 - num2;
-    let multiplicacion = num1 * num2;
-    let division = num1 / num2;
-    let residuo = num1 % num2;
 
-    println!("\n--- Resultados ---");
-    println!("Suma: {}", suma);
-    println!("Resta: {}", resta);
-    println!("Multiplicación: {}", multiplicacion);
-    println!("División: {}", division);
-    println!("Residuo: {}", residuo);
+
+
 }
-
