@@ -1,19 +1,20 @@
 fn main() {
- // Hecho por Luis Alejandro Aguilar Soberanes LICD
+    let num1 = 10;
+    let num2 = 20;
 
-    let suma = 5 + 5;
-    let resta = 5 - 4;
-    let division = 6 / 3;
-    let multiplicacion = 5 * 4;
-    let modulo = 10 % 3;
-    
-    println!("La suma es {}", suma);
-    println!("La resta es {}", resta);
-    println!("La división es {}", division);
-    println!("La multiplicación es {}", multiplicacion);
-    println!("El modulo es {}", modulo);
-    
+    println!("Variables: num1 = {}, num2 = {}", num1, num2);
+
+    let suma = num1 + num2;
+    let resta = num1 - num2;
+    let multiplicacion = num1 * num2;
+    let division = num1 / num2;
+    let residuo = num1 % num2;
+
+    println!("\n--- Resultados ---");
+    println!("Suma: {}", suma);
+    println!("Resta: {}", resta);
+    println!("Multiplicación: {}", multiplicacion);
+    println!("División: {}", division);
+    println!("Residuo: {}", residuo);
 }
-
-
 
