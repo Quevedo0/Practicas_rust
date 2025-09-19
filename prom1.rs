@@ -1,4 +1,5 @@
 fn main(){
+<<<<<<< HEAD
 let num1=3;
 let num2=6;
 
@@ -21,6 +22,24 @@ let num2=6;
     
 
 
+=======
+let a=20;
+let b=12;
+
+let suma= a + b;
+let resta= a - b;
+let multiplicar= a * b;
+let division= a / b;
+let resto= a % b;
+
+println!("Dados los valores a={} y b={}",a,b);
+println!("Hola Mundo");
+println!("La suma es:{}",suma);
+println!("La resta es:{}",resta);
+println!("La multiplicacion es:{}",multiplicar);
+println!("La division es:{}",division);
+println!("El resto es:{}",resto);
+>>>>>>> eee616d (Practica 1 rust / Annia Chavez)
 
 
 }
